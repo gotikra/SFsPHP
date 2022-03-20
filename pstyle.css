@@ -1,0 +1,111 @@
+html, body {
+    height: auto;
+    font-family: monospace;
+}
+
+
+h1,h2 {margin: 5px; text-align: center;}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #afffed;
+    border: 1px dotted black;
+    max-width: 1200px;
+    justify-content: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: auto;
+    
+    background-color: #f7cddc;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    
+    margin-right: 20px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+}
+
+p {font-size: 1.5em;}
+
+.data {
+    display: flex;
+    flex-direction: row;
+    background-color:#afffed;
+    
+}
+
+.myPhoto {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:30%;
+    border: 5px solid gray;
+    padding: 10px;
+}
+
+.myPhoto img{
+    width: 100%;
+}
+
+.nameAndOrigin {
+    margin-top: 5px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.whatWeLearn {
+    width: 70%;
+    background-color: #f7cddf;
+    margin-left: 15px;
+    padding-left: 15px;
+    border: 5px solid gray;
+    
+
+}
+
+
+.fblock {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;   
+    background-color: #f7cdd0;
+    padding-left: 15px;
+    border: 5px solid gray;
+       
+    
+}
+
+.footer {
+    display: flex;
+    background-color: #f5ccff;
+    flex: 0 0 auto;
+    margin-top: 15px; 
+    justify-content: center;
+}
+
